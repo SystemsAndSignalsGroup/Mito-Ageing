@@ -3,4 +3,4 @@ Bioinformatics pipeline for obtaining heteroplasmy features from scRNA-seq raw d
 
 ## Pipeline Workflow
 
-![Alt text](./Pipeline_Workflow.pdf?raw=true "Title")
+![Alt text](./Pipeline_Workflow.png?raw=true "Title")
