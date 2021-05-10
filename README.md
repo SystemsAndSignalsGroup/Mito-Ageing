@@ -36,7 +36,7 @@ This project consist of three steps
 - Quality control of gene-expresison matrix
 - Incorporation of mitochondrial
 
-Due to space limitations, we do not provide raw sequencing read data in this GitHub (bu they can be downloaded from GEO and AWS). Rather, we provide preprocessed mutation data and gene-expression matrix for one example data for the human pancreas [link](https://pubmed.ncbi.nlm.nih.gov/28965763/) .
+Due to space limitations, we do not provide raw sequencing read data in this GitHub (but they can be downloaded from GEO and AWS). Rather, we provide preprocessed mutation data and gene-expression matrix for one example data for the human pancreas [link](https://pubmed.ncbi.nlm.nih.gov/28965763/) .
 
 
 ![Alt text](./figures/workflow/Pipeline_Workflow.png?raw=true "Title")
