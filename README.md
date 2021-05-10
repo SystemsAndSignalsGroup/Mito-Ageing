@@ -10,4 +10,23 @@ This code accompanies the manuscript "Cryptic mitochondrial ageing takes a lifet
 
 ## Pipeline Workflow
 
+
+### How-to
+
+This project consist of three steps
+1. Processing of raw sequencing reads
+- Downloading the data from GEO or AWS
+- Alignment of reads to reference genome with STAR
+- Filtering out mitochondrial reads for variant calling
+2. Characterisation of mitochondrial mutations at a single-cell level
+- Quality control of mitochondrial mutation data
+- Comparing mutations across the data set to identify `cryptic` mutations
+- Computation of site-frequency spectrum
+3. Gene-expression analysis
+- Quality control of gene-expresison matrix
+- Incorporation of mitochondrial
+
+Due to space limitations, we do not provide raw sequencing read data in this GitHub (bu they can be downloaded from GEO and AWS). Rather, we provide preprocessed mutation data and gene-expression matrix for one example data for the human pancreas [link](https://pubmed.ncbi.nlm.nih.gov/28965763/) . 
+
+
 ![Alt text](./figures/workflow/Pipeline_Workflow.png?raw=true "Title")
