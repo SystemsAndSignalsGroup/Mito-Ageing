@@ -1,10 +1,8 @@
 # Mito-Ageing
 
 ### To-do:
-- add preprocessed data
 - add Ali's variant calling and SFS scripts
 - License?
-- add Flo's gene-expression analysis script
 - Figure creating scripts?
 - improve explanation of all steps
 
