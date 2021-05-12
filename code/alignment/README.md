@@ -15,6 +15,9 @@ Once these preliminaries have begun the pipeline operates on a 5-step procedure.
 4. Remapped Mitogetter - Exectues Mitogetter on the realigned bam file from FREEBAYES if there users wanted this option.
 
 
+These steps are packaged into functions within the script and are then executed according to the flow control sequence at the end of the script. This flow control factors in parameter choices at the beginning of the script (eg. whether to remap or not). Additionally, if certain output files are found up to certain steps, this flow control will take skip to the latest part of the sequence without the relevant scripts.
+
+
 
 We ran the scripts on a PBS cluster scheduler on the Imperial College London. Operability may differ on other cluster types.
 
