@@ -19,5 +19,5 @@ These steps are packaged into functions within the script and are then executed 
 
 
 
-We ran the scripts on a PBS cluster scheduler on the Imperial College London. Operability may differ on other cluster types.
+We ran the scripts on a PBS cluster scheduler on the Imperial College London hpc. Operability may differ on other cluster types.
 
