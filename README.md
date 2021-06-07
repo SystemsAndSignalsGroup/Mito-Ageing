@@ -43,7 +43,7 @@ This project consist of four steps
 
 ### Data
 
-Due to space limitations, we do not provide raw sequencing read data in this GitHub (but they can be downloaded from GEO and AWS). Rather, we provide preprocessed mutation data and gene-expression matrix for one example data for the human pancreas [link](https://pubmed.ncbi.nlm.nih.gov/28965763/) .
+Due to space limitations, we do not provide raw sequencing read data in this GitHub (but they can be downloaded from GEO and AWS). Rather, we provide preprocessed mutation data and the gene-expression matrix for one example data for the human pancreas [link](https://pubmed.ncbi.nlm.nih.gov/28965763/) .
 
 Raw sequencing data is publicly available for all data sets analysed in our manuscript:
 
