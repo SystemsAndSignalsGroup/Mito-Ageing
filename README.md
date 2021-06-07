@@ -3,15 +3,17 @@
 
 Bioinformatics pipeline for obtaining heteroplasmy features from scRNA-seq raw data. The pipeline goes from raw .fastq files and outputs standard features of a single cell workflow including aligned .bam files and expression matrices. As well as this, the heteroplasmy of mutations observed in single cells is output as a csv file which is then used for further analysis (see workflow diagram below).
 
+Raw-sequencing analysis is performed with Shell scripts and further analysis is using Python in the form of iPython notebooks.
+
 This code accompanies the manuscript "Cryptic mitochondrial ageing takes a lifetime and is pathophysiologically informative in single cells across tissues and species" by Alistair Green, Florian Klimm, Aidan S. Marshall, Juvid Aryaman, Patrick F. Chinnery, and Nick S. Jones.
 
-If you have questions concerning this code, please open an Issue her on GitHub.
+If you have questions concerning this code, please open an Issue here on GitHub.
 
 ## Prerequisites
 - [STAR](https://github.com/alexdobin/STAR) for the alignment of the reads
 - PySAM for variant calling
 - scanpy for the gene-expression matrix analysis
-
+- various standard Python libraries (e.g, numpy, pandas)
 ## Pipeline Workflow
 
 ### How-to
@@ -24,18 +26,16 @@ This project consist of four steps
 2. Characterisation of mitochondrial mutations at a single-cell level
 - Quality control of mitochondrial mutation data
 - Comparing mutations across the data set to identify `cryptic` mutations
-3. Figure creating for analysis of mitochondrial mutations
-- Comparison with pseudo-bulk heteroplasmy
+3. Analysis of mitochondrial mutations and figure creating
+- Comparison of cryptic mutations with with pseudo-bulk heteroplasmy
 - Computation of site-frequency spectrum
 - Selection effects
 - Increasing homoplasmies with age
 - Increasing difference between SFS with increasing age difference of donors
 4. Gene-expression analysis
 - Quality control of gene-expresison matrix
-- Incorporation of mitochondrial
-
-
-
+- Computation of `mitochondrial mutation load` for all cells and integration with gene-expression data
+- Identification of differentially expressed genes by comparing cells with a cryptic mutation versus those without such a mutation
 
 <p align="center">
 <img src="./figures/workflow/Pipeline_Workflow.png" height="600" />
