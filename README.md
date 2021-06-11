@@ -5,7 +5,7 @@ Bioinformatics pipeline for obtaining heteroplasmy features from scRNA-seq raw d
 
 Raw-sequencing analysis is performed with Shell scripts and further analysis is using Python in the form of iPython notebooks.
 
-This code accompanies the manuscript "Cryptic mitochondrial ageing takes a lifetime and is pathophysiologically informative in single cells across tissues and species" by Alistair Green, Florian Klimm, Aidan S. Marshall, Juvid Aryaman, Patrick F. Chinnery, and Nick S. Jones.
+This code accompanies the manuscript "Cryptic mitochondrial ageing takes a lifetime and is pathophysiologically informative in single cells across tissues and species" by Alistair Green*, Florian Klimm* Aidan S. Marshall, Juvid Aryaman, Patrick F. Chinnery, and Nick S. Jones.
 
 If you have questions concerning this code, please open an Issue here on GitHub.
 
