@@ -12,7 +12,7 @@ If you have questions concerning this code, please open an Issue here on GitHub.
 ## Prerequisites
 - [STAR](https://github.com/alexdobin/STAR) for the alignment of the reads
 - [Pysam](https://github.com/pysam-developers/pysam) for variant calling, which is a Python wrapper for [Samtools](http://www.htslib.org/)
-- [scanpy](https://github.com/theislab/scanpy) for the gene-expression matrix analysis 
+- [scanpy](https://github.com/theislab/scanpy) for the gene-expression matrix analysis
 - various standard Python libraries (e.g, numpy, pandas)
 ## Pipeline Workflow
 
@@ -38,7 +38,7 @@ This project consist of four steps
 - Identification of differentially expressed genes by comparing cells with a cryptic mutation versus those without such a mutation
 
 <p align="center">
-<img src="./figures/workflow/Pipeline_Workflow.png" height="600" />
+<img src="./figures/workflow/Pipeline_Workflow.png" height="800" />
 </p>
 
 ### Data
