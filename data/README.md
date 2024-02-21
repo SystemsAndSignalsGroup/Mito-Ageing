@@ -6,6 +6,8 @@ For the Enge data we provide three files
 - `engeVariantsSTAR200.pkl` is a pickle file that contains a pandas dataframe with the mutation information for all cells
 - `engeFilteredExpression200.h5ad` is the gene expression matrix
 
+We also provide precalculated posterior distributions for the human data used for the figures in our manuscript.
+
 See the iPython notebook under `./../code/geneExpressionAnalysis` for information on how to load this data.
 
 The raw sequencing data are available from GEO or AWS and the scripts to process them with STAR are contained in the `code` subfolder.
