@@ -284,7 +284,7 @@ if __name__ == '__main__':
 			columns = pd.MultiIndex.from_product([[donor_id],[cell_id]] ,  
 						names=['donor_id','cell_id']))
 	cov_df[donor_id] = cov_df.index.map(covDict)
-	cov_df.to_parquet('{}_coverage.pq'.format(cell_id))
+	cov_df.to_pickle('{}_coverage.pkl'.format(cell_id))
 	
 		
 	mut_df['cell_id'] = cell_id
