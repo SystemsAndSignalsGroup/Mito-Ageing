@@ -119,7 +119,6 @@ if __name__ == '__main__':
 
     print(f'length_samples starting, threads = {get_num_threads()}', flush=True)
     
-    
     all_lengths = length_samples(tot_levels, time, coal_lengths, samples = samples)
         
     print(all_lengths.shape)
@@ -134,7 +133,7 @@ if __name__ == '__main__':
 
         fact = np.math.factorial(mutant_num)
             
-        print('likely_theta_speed starting', flush=True)
+        print(f'likely_theta_speed starting {mutant_num}', flush=True)
         loger = likely_theta_speed(fact, mutant_num, all_lengths, thetas)
         print('likely_theta_speed done', flush=True)
 

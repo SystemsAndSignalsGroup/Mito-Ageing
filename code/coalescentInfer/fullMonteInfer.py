@@ -349,6 +349,7 @@ if __name__ == '__main__':
         full[donor_id] = exp(full_log[donor_id])
         full[donor_id] = (full[donor_id]/full[donor_id].sum()).astype(float)
 
+    # If this has been done once, it is not needed.
     createLogDonorLikely_newest(alphaDonorPriors, thetaDonorPriors, full, thetas)
 
     print('Hypermarginal Construction')
