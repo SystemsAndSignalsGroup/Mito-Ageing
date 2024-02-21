@@ -1,5 +1,5 @@
 #!/bin/sh
-#PBS -N scriptHumans1090
+#PBS -N scriptHumans90
 #PBS -l walltime=48:00:00
 #PBS -l select=1:ncpus=9:mem=600gb
 

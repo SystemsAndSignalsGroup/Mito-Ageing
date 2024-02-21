@@ -101,11 +101,6 @@ if __name__ == '__main__':
     save_path = args.save_path
 
 
-    try: 
-        os.mkdir(f'{save_path}/{tot_levels}M={mutant_num}')
-    except OSError as error: 
-        print(error) 
-            
     config.THREADING_LAYER = 'threadsafe'
     set_num_threads(threads)
     print("Threading layer chosen: %s" % threading_layer(), flush = True)
@@ -130,10 +125,15 @@ if __name__ == '__main__':
     print(all_lengths.shape)
     print('length_samples done', flush=True)
         
-    fact = np.math.factorial(mutant_num)
-    
     for mutant_num in range(9):
         
+        try: 
+            os.mkdir(f'{save_path}/{tot_levels}M={mutant_num}')
+        except OSError as error: 
+            print(error) 
+
+        fact = np.math.factorial(mutant_num)
+            
         print('likely_theta_speed starting', flush=True)
         loger = likely_theta_speed(fact, mutant_num, all_lengths, thetas)
         print('likely_theta_speed done', flush=True)

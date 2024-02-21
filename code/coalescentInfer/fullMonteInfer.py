@@ -249,9 +249,9 @@ if __name__ == '__main__':
         help="Input base dictionary")
     parser.add_argument('-ageDict', type=str,
         help="Input age dictionary")
-    parser.add_argument('-logFold',  default='/rds/general/user/ag5818/home/monteCarloInfer/', type=str,
+    parser.add_argument('-logFold',  default='./', type=str,
         help="folder with the dictionaries for log likelihoods")
-    parser.add_argument('-saveFolder', default='/rds/general/user/ag5818/ephemeral/', type=str,
+    parser.add_argument('-saveFolder', default='./', type=str,
         help="savePath")
     
     args = parser.parse_args()
