@@ -31,14 +31,11 @@ This project consist of four steps
 - Selection effects
 - Increasing homoplasmies with age
 - Increasing difference between SFS with increasing age difference of donors
+- Inference of mitochondrial parameters from cryptic mutations
 4. Gene-expression analysis
 - Quality control of gene-expresison matrix
 - Computation of `mitochondrial mutation load` for all cells and integration with gene-expression data
 - Identification of differentially expressed genes by comparing cells with a cryptic mutation versus those without such a mutation
-
-<p align="center">
-<img src="./figures/workflow/Pipeline_Workflow.png" height="800" />
-</p>
 
 ### Data
 
